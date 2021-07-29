@@ -1,0 +1,117 @@
+
+/ * Limpar formatações padrão * /
+* {
+    margem :  0 ;
+    preenchimento :  0 ;
+}
+corpo {
+    tamanho da fonte :  1 em ;
+    família da fonte :  "Trebuchet MS" , Helvetica , sans-serif;
+    plano de fundo :  # D8BFD8 ;
+}
+/ *
+**** layout ****
+* /
+# area-cabecalho {
+    plano de fundo :  # 4B0082 ;
+    preenchimento :  15 px ;
+    alinhamento de texto : centro;
+}
+
+# area-logo ,  # area-menu {
+    preenchimento :  10 px ;
+}
+ 
+# area-principal {
+   largura :  920 px ;
+   margem :  0 automático;
+   preenchimento :  15 px ;
+}
+# area-lateral {
+    plano de fundo :  # D8BFD8 ;
+    
+}
+# area-postagens {
+   largura : 660 px ;  
+   flutuar : esquerda;
+}
+# area-lateral {
+   largura : 240 px ;
+   flutuar : certo;
+}
+. postagem {
+   preenchimento :  20 px ;
+   margem inferior :  20 px ;
+   fundo : branco;
+}
+. conteudo-lateral {
+   fundo : branco;
+   preenchimento :  10 px ;
+   margem inferior :  20 px ;
+}
+. postagem-lateral {
+    tamanho da fonte :  0,8 em ;
+    preenchimento :  5 px ;
+    borda inferior :  1 px pontilhado # CCC ;  
+}
+
+# rodape {
+   claro : ambos;
+   plano de fundo :  # CCC ;
+   alinhamento de texto : centro;
+   preenchimento :  15 px ;
+   
+   
+}
+
+
+/ *
+**** Formatação do menu ****
+* /
+a {
+    decoração de texto : nenhum;
+}
+a : link ,  a : visitado {
+    cor :  # 4B0082 ;
+}
+a : hover {
+    decoração de texto : sublinhado;
+}
+
+
+# area-cabecalho  a : link ,  # area-cabecalho  a : visitado {
+    cor : # FFF ;
+    preenchimento : 9 px ;
+}
+# area-cabecalho  a : hover {
+    cor :  # E6E6FA ;
+    fundo :  # FFF ;
+    decoração de texto : nenhum;
+}
+
+/ *
+**** Formatações em geral ****
+* /
+h1 {
+   cor :  # D8BFD8 ;
+   tamanho da fonte :  35 px ;
+}
+h2 {
+   cor :  # 4B0082 ;
+}
+h3 {
+   cor :  # D8BFD8 ;
+   plano de fundo :  # 4B0082 ;
+   preenchimento :  5 px ;
+}
+
+. branco {
+    cor : branco;
+}
+. data-postagem {
+    tamanho da fonte :  0,8 em ;
+    borda inferior :  1 px sólido # CCC ;
+    padding-bottom :  10 px ;
+    margem inferior :  10 px ;
+    display : bloco;
+}
